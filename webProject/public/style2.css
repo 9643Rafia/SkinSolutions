@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbfcfa;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e0dede;
+  color: rgb(80, 81, 80);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #1a1919;
+}
+
+.navbar a {
+  color: rgb(80, 81, 80);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar .navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar .logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-left,
+  .navbar-right {
+      display: none;
+  }
+
+  .navbar-center {
+      text-align: center;
+  }
+}
+
+.signUpFormContainer {
+ /* margin: 53px 60px 224px 43px;*/
+  margin:10px;
+  /*padding: 57px 346px 0 357px;*/
+  padding:100px 380px 100px 380px;
+  padding-right: 400px;
+}
+
+.background-signUp {
+  background: #c5dca0;
+  padding: 130px;
+  margin:0;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  border-radius: 76px;
+}
+
+.signUpForm {
+  position: relative;
+}
+
+.signUpForm h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.gotoSignIn a {
+    color: #ffffff;
+    background: #537a5a;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top:20px;
+  }
+
+
+.credentials {
+  margin-bottom: 40px;
+}
+
+.credentials label {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  color: #ffffff;
+  background: #537a5a;
+  border: none;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-top:20px;
+ /* position: relative;*/
+ /* left:314px;*/
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #354d39;
+}
+
+.gotoSignIn {
+  display:flex;
+  justify-content:right;
+}
+
+.gotoSignIn h4 {
+  text-align: right;
+  color: #ffffff;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer {
+    position: fixed; /* change from absolute to fixed */
+    bottom: 0; /* position at the bottom */
+    left: 0; /* position at the left */
+    width: 100%; /* span the full width */
+    background-color: #333;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+.footer-logo img {
+  width: 100px; 
+   padding-left: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
